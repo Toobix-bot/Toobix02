@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  @apply bg-nova-light text-nova-dark;
+}
+
+.btn {
+  @apply px-4 py-2 rounded-md font-medium transition-colors duration-200;
+}
+
+.btn-primary {
+  @apply bg-nova-primary text-white hover:bg-opacity-90;
+}
+
+.btn-secondary {
+  @apply bg-nova-secondary text-white hover:bg-opacity-90;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-md p-6;
+}
+
+.input {
+  @apply w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-nova-primary;
+}
+
+.badge {
+  @apply px-2 py-1 text-xs font-semibold rounded-full;
+}
+
+.badge-primary {
+  @apply bg-nova-primary text-white;
+}
+
+.badge-secondary {
+  @apply bg-nova-secondary text-white;
+}
+
+.badge-accent {
+  @apply bg-nova-accent text-white;
+}
